@@ -4,6 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audio_cache.dart';
+import 'package:double_back_to_close_app/double_back_to_close_app.dart';
 
 void main() {
   runApp(MyApp());
@@ -53,7 +54,12 @@ class MyApp extends StatelessWidget {
       title: 'Saregama-App',
       home: Scaffold(
         backgroundColor: Colors.black,
-        body: _buildArea()
+        body: DoubleBackToCloseApp(
+              snackBar: const SnackBar(
+                content: Text('Tap Back again to Exit'),
+              ),
+              child: _buildArea(),
+        ),
       ),
     );
   }
