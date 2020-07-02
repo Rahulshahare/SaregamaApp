@@ -28,4 +28,4 @@ After stretching buttons to full width there are still some unused space, ```Exp
 
 ### WebApp
 ![WebApp](https://raw.githubusercontent.com/Rahulshahare/SaregamaApp/master/test/webapp.png)
-![fullScreenode](https://raw.githubusercontent.com/Rahulshahare/SaregamaApp/master/test/fullscreen.png)
+[fullScreenode](https://raw.githubusercontent.com/Rahulshahare/SaregamaApp/master/test/fullscreen.png)
