@@ -13,4 +13,4 @@ Sound files are added to assets folder, and assets folder is define under
 ```flutter``` in ```pubspec.yaml``` to make files accessible.
 
 ### A package to play audio files
-```audioplayers``` is a package required to play audio files in flutter app, ```audioplayers``` works for Android, iOS, macOS and web.
+```audioplayers``` is a package required to play audio files in flutter app, ```audioplayers``` works for Android, iOS, macOS and web. Package has ```audio_cache``` api to play app's assets files
