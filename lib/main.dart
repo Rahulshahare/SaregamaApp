@@ -5,6 +5,18 @@ void main() {
   runApp(MyApp());
 }
 
+dynamic _CreateButton(){
+  return(
+    FlatButton(
+      color: Colors.red,
+      onPressed: (){
+        final player = AudioCache();
+        player.play('note1.wav');
+      },
+    )
+  );
+}
+
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -30,14 +42,7 @@ class MyApp extends StatelessWidget {
                 player.play('note2.wav');
               },
             ),
-            FlatButton(
-              color: Colors.red,
-              child: Text('pressedMe'),
-              onPressed: (){
-                final player = AudioCache();
-                player.play('note3.wav');
-              },
-            ),
+           _CreateButton()
 
           ],
           )
