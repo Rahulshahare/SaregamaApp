@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Saregama-App',
       home: Scaffold(
+        backgroundColor: Colors.black,
         body:SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
