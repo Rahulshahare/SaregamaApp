@@ -26,23 +26,14 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Column(
           children: [
-            FlatButton(
-              color: Colors.red,
-              child: Text('pressedMe'),
-              onPressed: (){
-                final player = AudioCache();
-                player.play('note1.wav');
-              },
-            ),
-            FlatButton(
-              color: Colors.red,
-              child: Text('pressedMe'),
-              onPressed: (){
-                final player = AudioCache();
-                player.play('note2.wav');
-              },
-            ),
-           _CreateButton( Colors.blue ,'note6.wav')
+            
+            _CreateButton( Colors.red ,'note1.wav'),
+            _CreateButton( Colors.orange ,'note2.wav'),
+            _CreateButton( Colors.yellow ,'note3.wav'),
+            _CreateButton( Colors.green ,'note4.wav'),
+            _CreateButton( Colors.blue ,'note5.wav'),
+            _CreateButton( Colors.indigo ,'note6.wav'),
+            _CreateButton( Colors.purple ,'note7.wav'),
 
           ],
           )
