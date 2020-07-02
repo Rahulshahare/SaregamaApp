@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             FlatButton(
+              color: Colors.red,
               child: Text('pressedMe'),
               onPressed: (){
                 final player = AudioCache();
