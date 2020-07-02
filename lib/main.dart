@@ -11,9 +11,16 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Saregama-App',
       home: Scaffold(
-        body: Center(
-          child: Text('hello'),
-          ),
+        body: Column(
+          children: [
+            FlatButton(
+              child: Text('pressedMe'),
+              onPressed: (){
+                print('pressed');
+              },
+              )
+          ],
+          )
       ),
     );
   }
