@@ -5,10 +5,10 @@ void main() {
   runApp(MyApp());
 }
 
-dynamic _CreateButton( String filename ){
+dynamic _CreateButton(Color color, String filename ){
   return(
     FlatButton(
-      color: Colors.red,
+      color: color,
       onPressed: (){
         final player = AudioCache();
         player.play(filename);
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
                 player.play('note2.wav');
               },
             ),
-           _CreateButton('note6.wav')
+           _CreateButton( Colors.blue ,'note6.wav')
 
           ],
           )
