@@ -24,20 +24,23 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Saregama-App',
       home: Scaffold(
-        body: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            
-            _CreateButton( Colors.red ,'note1.wav'),
-            _CreateButton( Colors.orange ,'note2.wav'),
-            _CreateButton( Colors.yellow ,'note3.wav'),
-            _CreateButton( Colors.green ,'note4.wav'),
-            _CreateButton( Colors.blue ,'note5.wav'),
-            _CreateButton( Colors.indigo ,'note6.wav'),
-            _CreateButton( Colors.purple ,'note7.wav'),
+        body:SafeArea(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children:<Widget> [
+              
+              _CreateButton( Colors.red ,'note1.wav'),
+              _CreateButton( Colors.orange ,'note2.wav'),
+              _CreateButton( Colors.yellow ,'note3.wav'),
+              _CreateButton( Colors.green ,'note4.wav'),
+              _CreateButton( Colors.blue ,'note5.wav'),
+              _CreateButton( Colors.indigo ,'note6.wav'),
+              _CreateButton( Colors.purple ,'note7.wav'),
 
-          ],
-          )
+            ],
+          ),
+
+        ) 
       ),
     );
   }
