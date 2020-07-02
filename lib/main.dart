@@ -24,6 +24,27 @@ Expanded _CreateButton(Color color, String filename ){
   );
 }
 
+Widget _buildArea(){
+  return(
+    SafeArea(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+
+              _CreateButton( Colors.red,'note1.wav'),
+              _CreateButton( Colors.orange ,'note2.wav'),
+              _CreateButton( Colors.yellow ,'note3.wav'),
+              _CreateButton( Colors.green ,'note4.wav'),
+              _CreateButton( Colors.blue ,'note5.wav'),
+              _CreateButton( Colors.indigo ,'note6.wav'),
+              _CreateButton( Colors.purple ,'note7.wav'),
+
+        ],
+      ),
+    )
+  );
+}
+
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -32,23 +53,7 @@ class MyApp extends StatelessWidget {
       title: 'Saregama-App',
       home: Scaffold(
         backgroundColor: Colors.black,
-        body:SafeArea(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children:<Widget> [
-              
-              _CreateButton( Colors.red ,'note1.wav'),
-              _CreateButton( Colors.orange ,'note2.wav'),
-              _CreateButton( Colors.yellow ,'note3.wav'),
-              _CreateButton( Colors.green ,'note4.wav'),
-              _CreateButton( Colors.blue ,'note5.wav'),
-              _CreateButton( Colors.indigo ,'note6.wav'),
-              _CreateButton( Colors.purple ,'note7.wav'),
-
-            ],
-          ),
-
-        ) 
+        body: _buildArea()
       ),
     );
   }
