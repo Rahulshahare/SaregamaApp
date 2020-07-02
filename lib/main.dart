@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
       title: 'Saregama-App',
       home: Scaffold(
         body: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             
             _CreateButton( Colors.red ,'note1.wav'),
