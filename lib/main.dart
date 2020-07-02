@@ -5,15 +5,18 @@ void main() {
   runApp(MyApp());
 }
 
-dynamic _CreateButton(Color color, String filename ){
+Expanded _CreateButton(Color color, String filename ){
   return(
-    FlatButton(
-      color: color,
-      onPressed: (){
-        final player = AudioCache();
-        player.play(filename);
-      },
+    Expanded(
+      child:FlatButton(
+        color: color,
+        onPressed: (){
+          final player = AudioCache();
+          player.play(filename);
+        },
+      ) ,
     )
+    
   );
 }
 

@@ -18,3 +18,11 @@ Sound files are added to assets folder, and assets folder is define under
 ### The google search
 search google with ```color of rainbow``` and google returns ```ROYGBIV or Roy G. Biv```.
 ```ROYGBIV or Roy G. Biv``` Red, Orange, Yellow, Green, Blue, Indigo, Voilet. We have 7 different sound so lets make 7 buttons with 7 different color to play 7 different sounds.
+
+### crossAxisAlignment
+```crossAxisAlignment``` decides how the children should be placed along the cross axis in a flex layout.
+as our buttons was a initial small size, using ```crossAxisAlignment``` to ```stretch``` makes our Buttons available to full width. #looks great ```:)```
+
+### Expanded
+After stretching buttons to full width there are still some unused space, ```Expanded``` expands a child of a [Row], [Column], or [Flex] so that the child fills the available space, As are result 7 buttons fills the whole space equally to make our app Beautiful n working.
+
