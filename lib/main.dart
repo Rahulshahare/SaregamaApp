@@ -21,7 +21,24 @@ class MyApp extends StatelessWidget {
                 final player = AudioCache();
                 player.play('note1.wav');
               },
-              )
+            ),
+            FlatButton(
+              color: Colors.red,
+              child: Text('pressedMe'),
+              onPressed: (){
+                final player = AudioCache();
+                player.play('note2.wav');
+              },
+            ),
+            FlatButton(
+              color: Colors.red,
+              child: Text('pressedMe'),
+              onPressed: (){
+                final player = AudioCache();
+                player.play('note3.wav');
+              },
+            ),
+
           ],
           )
       ),
