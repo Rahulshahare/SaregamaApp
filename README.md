@@ -29,3 +29,7 @@ After stretching buttons to full width there are still some unused space, ```Exp
 ### WebApp
 ![WebApp](https://raw.githubusercontent.com/Rahulshahare/SaregamaApp/master/test/webapp.png)
 [fullScreenode](https://raw.githubusercontent.com/Rahulshahare/SaregamaApp/master/test/fullscreen.png)
+
+### Lets Build Prodution Versions
+```flutter build web``` will Create Production Web App
+```flutter build apk --split-per-abi``` will Create Optiomized Production Android Build.
