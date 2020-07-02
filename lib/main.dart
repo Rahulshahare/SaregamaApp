@@ -1,8 +1,7 @@
-/**
- * Author : Rahul Shahare
- * Author url : https://github.com/Rahulshahare
- * repository url : https://github.com/Rahulshahare/SaregamaApp
- */
+// Author : Rahul Shahare
+// Author url : https://github.com/Rahulshahare
+// repository url : https://github.com/Rahulshahare/SaregamaApp
+
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audio_cache.dart';
 
