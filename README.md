@@ -39,7 +39,7 @@ After stretching buttons to full width there are still some unused space, ```Exp
 
 ### 1.0.2 [Beta - Unrelease]
 - New app bar with title and right side info icon.
-- Anather Screen to show details of app0
+- Anather Screen to show details of app.
 - Naigation for navigating through screens.
 
 ### 1.0.1 [Release](https://github.com/Rahulshahare/SaregamaApp/releases/tag/1.0.1)
