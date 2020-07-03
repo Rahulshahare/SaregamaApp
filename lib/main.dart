@@ -57,7 +57,12 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.black,
           title: Text('SaReGaMa App'),
           actions: [
-            
+            IconButton(
+              icon: Icon(Icons.settings),
+              onPressed: (){
+                print('pressed');
+              },
+            )
           ],
         ),
         backgroundColor: Colors.black,
