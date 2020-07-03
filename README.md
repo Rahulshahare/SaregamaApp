@@ -38,5 +38,8 @@ After stretching buttons to full width there are still some unused space, ```Exp
 # Version Updates
 
 
-### 1.0.0
+### 1.0.1 (Release)
+- Press Back Again To Exit Functionaliy added.
+
+### 1.0.0 (Release)
 - 7 magical sound with 7 rainbow keys
