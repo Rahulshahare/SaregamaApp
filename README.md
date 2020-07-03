@@ -37,6 +37,7 @@ After stretching buttons to full width there are still some unused space, ```Exp
 
 # Version Updates
 
+### 1.0.2 [Beta - Unrelease]
 
 ### 1.0.1 [Release](https://github.com/Rahulshahare/SaregamaApp/releases/tag/1.0.1)
 - Press Back Again To Exit Functionaliy added.
