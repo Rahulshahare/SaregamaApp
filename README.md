@@ -38,9 +38,12 @@ After stretching buttons to full width there are still some unused space, ```Exp
 # Version Updates
 
 ### 1.0.2 [Beta - Unrelease]
+- New app bar with title and right side info icon.
+- Anather Screen to show details of app0
+- Naigation for navigating through screens.
 
 ### 1.0.1 [Release](https://github.com/Rahulshahare/SaregamaApp/releases/tag/1.0.1)
 - Press Back Again To Exit Functionaliy added.
 
 ### 1.0.0 [Release](https://github.com/Rahulshahare/SaregamaApp/releases/tag/1.0.0)
-- 7 magical sound with 7 rainbow keys
+- 7 magical sound with 7 rainbow keys.
