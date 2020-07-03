@@ -41,5 +41,5 @@ After stretching buttons to full width there are still some unused space, ```Exp
 ### 1.0.1 (Release)
 - Press Back Again To Exit Functionaliy added.
 
-### 1.0.0 (Release)[https://github.com/Rahulshahare/SaregamaApp/releases/tag/1.0.0]
+### 1.0.0 (Release)(https://github.com/Rahulshahare/SaregamaApp/releases/tag/1.0.0)
 - 7 magical sound with 7 rainbow keys
