@@ -53,6 +53,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Saregama-App',
       home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.black,
+          title: Text('SaReGaMa App'),
+        ),
         backgroundColor: Colors.black,
         body: DoubleBackToCloseApp(
               snackBar: const SnackBar(
