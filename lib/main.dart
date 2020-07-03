@@ -7,7 +7,13 @@ import 'package:audioplayers/audio_cache.dart';
 import 'package:double_back_to_close_app/double_back_to_close_app.dart';
 
 void main() {
-  runApp(MyApp());
+  //runApp(MyApp());
+  runApp(
+    MaterialApp(
+      home: MyApp(),
+      title: 'SaReGaMa App',
+      )
+    );
 }
 
 Expanded _CreateButton(Color color, String filename ){
@@ -50,9 +56,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Saregama-App',
-      home: Scaffold(
+      return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.black,
           title: Text('SaReGaMa App'),
@@ -75,8 +79,7 @@ class MyApp extends StatelessWidget {
               ),
               child: _buildArea(),
         ),
-      ),
-    );
+      );
   }
 }
 
