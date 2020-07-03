@@ -59,6 +59,7 @@ class MyApp extends StatelessWidget {
       return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.black,
+          brightness: Brightness.dark,
           title: Text('SaReGaMa App'),
           actions: [
             IconButton(
