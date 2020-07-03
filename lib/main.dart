@@ -56,6 +56,9 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.black,
           title: Text('SaReGaMa App'),
+          actions: [
+            
+          ],
         ),
         backgroundColor: Colors.black,
         body: DoubleBackToCloseApp(
