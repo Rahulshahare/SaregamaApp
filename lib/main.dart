@@ -65,12 +65,12 @@ class _MyAppState extends State<MyApp> {
 
   void _toggleTheme(){
     setState(() {
-      if (makeFade) {
-        makeFade = false;
-      } else {
-        makeFade = true;
-      }
-  });
+        if (makeFade) {
+          makeFade = false;
+        } else {
+          makeFade = true;
+        }
+    });
   }
   @override
   Widget build(BuildContext context) {
