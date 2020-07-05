@@ -35,3 +35,7 @@ flutter:
       fonts:
         - asset: fonts/SourceSansPro-Regular.ttf
 
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/undraw_happy.svg"
