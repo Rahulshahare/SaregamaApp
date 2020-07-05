@@ -134,7 +134,7 @@ class SecondRoute extends StatelessWidget {
                 fontFamily: 'Pacifico',
                 fontSize: 40.0,
               ),
-              ),
+            ),
             Text(
               'Founder CEO @ OCEANGREEN TECHNOLOGIES',
               style: TextStyle(
@@ -142,12 +142,12 @@ class SecondRoute extends StatelessWidget {
                 fontSize: 20.0,
                 letterSpacing: 1.0,
               ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.phone),
+                title:  Text('8999445733'),
               ),
-            Row(
-              children:<Widget> [
-                Icon(Icons.phone),
-                Text('8999445733'),
-              ],
             ),
             Card(
               child: ListTile(
