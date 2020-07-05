@@ -47,6 +47,10 @@ After stretching buttons to full width there are still some unused space, ```Exp
 - Link to open dialer app with giver number.
 - Link to open email manager with giver email.
 - New app Icons are added
+- Screenshot:
+![Screenshot](https://raw.githubusercontent.com/Rahulshahare/SaregamaApp/master/test/1.0.2-1.jpg)
+![Screenshot](https://raw.githubusercontent.com/Rahulshahare/SaregamaApp/master/test/1.0.2-2.jpg)
+
 
 ### 1.0.1 [Release](https://github.com/Rahulshahare/SaregamaApp/releases/tag/1.0.1)
 - Press Back Again To Exit Functionaliy added.
