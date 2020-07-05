@@ -42,6 +42,11 @@ After stretching buttons to full width there are still some unused space, ```Exp
 - Anather Screen to show details of app.
 - Change the color of buttons from dark to light n vise versa.
 - Naigation for navigating through screens.
+- New screen is with new layout.
+- New fonts are introduced in app.
+- Link to open dialer app with giver number.
+- Link to open email manager with giver email.
+- New app Icons are added
 
 ### 1.0.1 [Release](https://github.com/Rahulshahare/SaregamaApp/releases/tag/1.0.1)
 - Press Back Again To Exit Functionaliy added.
