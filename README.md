@@ -37,7 +37,7 @@ After stretching buttons to full width there are still some unused space, ```Exp
 
 # Version Updates
 
-### 1.0.2 [Beta - Unrelease]
+### 1.0.2 [Release](https://github.com/Rahulshahare/SaregamaApp/releases/tag/1.0.2)
 - New app bar with title and right side info icon.
 - Anather Screen to show details of app.
 - Change the color of buttons from dark to light n vise versa.
