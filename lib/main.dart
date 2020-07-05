@@ -10,7 +10,7 @@ void main() {
   //runApp(MyApp());
   runApp(
     MaterialApp(
-      home: MyApp(),
+      home: SecondRoute(),
       title: 'SaReGaMa App',
       )
     );
@@ -133,26 +133,53 @@ class SecondRoute extends StatelessWidget {
               style: TextStyle(
                 fontFamily: 'Pacifico',
                 fontSize: 40.0,
+                color: Colors.white,
               ),
             ),
             Text(
               'Founder CEO @ OCEANGREEN TECHNOLOGIES',
               style: TextStyle(
                 fontFamily: 'Source Sans Pro',
+                color: Colors.teal.shade100,
                 fontSize: 20.0,
                 letterSpacing: 1.0,
               ),
             ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.phone),
-                title:  Text('8999445733'),
+            SizedBox(
+              height: 20.0,
+              width: 150.0,
+              child: Divider(
+                color: Colors.teal.shade100,
               ),
             ),
             Card(
               child: ListTile(
-                leading: Icon(Icons.email),
-                title:  Text('rahulshahare@gmail.com'),
+                leading: Icon(
+                  Icons.phone,
+                  color: Colors.teal,
+                  ),
+                title:  Text(
+                  '8999445733',
+                  style: TextStyle(
+                    color: Colors.teal[900],
+                    fontSize: 20.0,
+                  ),
+                  ),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Icon(
+                  Icons.email,
+                  color: Colors.teal,
+                  ),
+                title:  Text(
+                  'rahulshahare@gmail.com',
+                  style: TextStyle(
+                    color: Colors.teal[900],
+                    fontSize: 20.0,
+                  ),
+                  ),
               ),
             ),
           ],
