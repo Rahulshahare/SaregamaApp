@@ -11,7 +11,7 @@ void main() {
   //runApp(MyApp());
   runApp(
     MaterialApp(
-      home: SecondRoute(),
+      home: MyApp(),
       title: 'SaReGaMa App',
       )
     );
@@ -40,13 +40,13 @@ Widget _buildArea(bool makeFade){
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
 
-              _CreateButton( light ? Colors.red[300] : Colors.red,'note1.wav'),
-              _CreateButton( light ? Colors.orange[300] : Colors.orange ,'note2.wav'),
-              _CreateButton( light ? Colors.yellow[300] : Colors.yellow ,'note3.wav'),
-              _CreateButton( light ? Colors.green[300] : Colors.green ,'note4.wav'),
-              _CreateButton( light ? Colors.blue[300] : Colors.blue ,'note5.wav'),
-              _CreateButton( light ? Colors.indigo[300] : Colors.indigo ,'note6.wav'),
-              _CreateButton( light ? Colors.purple[300] : Colors.purple ,'note7.wav'),
+              _CreateButton( light ? Colors.red[600] : Colors.red,'note1.wav'),
+              _CreateButton( light ? Colors.orange[600] : Colors.orange ,'note2.wav'),
+              _CreateButton( light ? Colors.yellow[600] : Colors.yellow ,'note3.wav'),
+              _CreateButton( light ? Colors.green[600] : Colors.green ,'note4.wav'),
+              _CreateButton( light ? Colors.blue[600] : Colors.blue ,'note5.wav'),
+              _CreateButton( light ? Colors.indigo[600] : Colors.indigo ,'note6.wav'),
+              _CreateButton( light ? Colors.purple[600] : Colors.purple ,'note7.wav'),
 
         ],
       ),
@@ -125,6 +125,10 @@ class SecondRoute extends StatelessWidget {
       'body':'Hi there, I am feeling happy to contact you',
     }
   );
+  final Uri _phoneLaunchData = Uri(
+    scheme: 'tel',
+    path: '+91 8999445733'
+  );
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -166,7 +170,7 @@ class SecondRoute extends StatelessWidget {
               ),
               Card(
                 child: ListTile(
-                  onTap: () => UrlLauncher.launch('tel:+91 8999445733'),
+                  onTap: () => UrlLauncher.launch(_phoneLaunchData.toString()),
                   leading: Icon(
                     Icons.phone,
                     color: Colors.teal,
