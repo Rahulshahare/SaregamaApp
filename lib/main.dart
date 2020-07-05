@@ -116,6 +116,15 @@ class _MyAppState extends State<MyApp> {
 }
 
 class SecondRoute extends StatelessWidget {
+
+  final Uri _emailLaunchData = Uri(
+    scheme: 'mailto',
+    path: 'rahulshahare@gmail.com',
+    queryParameters: {
+      'subject':'Hey its from Saregama App',
+      'body':'Hi there, I am feeling happy to contact you',
+    }
+  );
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -173,9 +182,7 @@ class SecondRoute extends StatelessWidget {
               ),
               Card(
                 child: ListTile(
-                  onTap: () => UrlLauncher.launch(
-                    'mailto:rahulshahare@gmail.com?subject=Hello%20its%20from%20Saregama%20App&body=Hi'
-                    ),
+                  onTap: () => UrlLauncher.launch(_emailLaunchData.toString()),
                   leading: Icon(
                     Icons.email,
                     color: Colors.teal,
