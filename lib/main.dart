@@ -5,6 +5,7 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audio_cache.dart';
 import 'package:double_back_to_close_app/double_back_to_close_app.dart';
+import 'package:url_launcher/url_launcher.dart' as UrlLauncher;
 
 void main() {
   //runApp(MyApp());
@@ -156,6 +157,7 @@ class SecondRoute extends StatelessWidget {
               ),
               Card(
                 child: ListTile(
+                  onTap: () => UrlLauncher.launch('tel:+91 8999445733'),
                   leading: Icon(
                     Icons.phone,
                     color: Colors.teal,
@@ -171,6 +173,9 @@ class SecondRoute extends StatelessWidget {
               ),
               Card(
                 child: ListTile(
+                  onTap: () => UrlLauncher.launch(
+                    'mailto:rahulshahare@gmail.com?subject=Hello%20its%20from%20Saregama%20App&body=Hi'
+                    ),
                   leading: Icon(
                     Icons.email,
                     color: Colors.teal,
