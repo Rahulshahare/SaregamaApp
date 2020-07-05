@@ -10,7 +10,7 @@ void main() {
   //runApp(MyApp());
   runApp(
     MaterialApp(
-      home: SecondRoute(),
+      home: MyApp(),
       title: 'SaReGaMa App',
       )
     );
@@ -78,7 +78,13 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           backgroundColor: Colors.black,
           brightness: Brightness.dark,
-          title: Text('SaReGaMa App'),
+          title: Text(
+            'Saregama App',
+            style: TextStyle(
+              fontFamily: 'Pacifico',
+              fontSize: 25.0,
+            ),
+            ),
           actions: [
             IconButton(
               icon: Icon(Icons.language),
@@ -113,11 +119,11 @@ class SecondRoute extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Info"),
         backgroundColor: Colors.black,
       ),
+      backgroundColor: Colors.teal,
       body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CircleAvatar(
               backgroundColor: Colors.red,
@@ -125,19 +131,25 @@ class SecondRoute extends StatelessWidget {
             Text(
               'Rahul Shahare',
               style: TextStyle(
-                fontFamily:'Pacifoco' ,
+                fontFamily: 'Pacifico',
+                fontSize: 40.0,
               ),
               ),
-            Text('Founder CEO at Oceangreen Technologies'),
+            Text(
+              'Founder CEO @ OCEANGREEN TECHNOLOGIES',
+              style: TextStyle(
+                fontFamily: 'Source Sans Pro',
+                fontSize: 20.0,
+                letterSpacing: 1.0,
+              ),
+              ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.center,
               children:<Widget> [
                 Icon(Icons.phone),
                 Text('8999445733'),
               ],
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Icon(Icons.email),
                 Text('rahulshahare@gmail.com'),
