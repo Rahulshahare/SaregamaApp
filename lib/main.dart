@@ -126,7 +126,8 @@ class SecondRoute extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CircleAvatar(
-              backgroundColor: Colors.red,
+              radius: 50.0,
+              backgroundImage: AssetImage('images/rahul.jpg'),
             ),
             Text(
               'Rahul Shahare',
