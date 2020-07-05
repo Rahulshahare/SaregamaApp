@@ -154,6 +154,7 @@ class SecondRoute extends StatelessWidget {
               ),
               Text(
                 'Founder CEO @ OCEANGREEN TECHNOLOGIES',
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   fontFamily: 'Source Sans Pro',
                   color: Colors.teal.shade100,
