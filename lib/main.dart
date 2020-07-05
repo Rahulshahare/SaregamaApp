@@ -122,69 +122,71 @@ class SecondRoute extends StatelessWidget {
         backgroundColor: Colors.black,
       ),
       backgroundColor: Colors.teal,
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            CircleAvatar(
-              radius: 50.0,
-              backgroundImage: AssetImage('images/rahul.jpg'),
-            ),
-            Text(
-              'Rahul Shahare',
-              style: TextStyle(
-                fontFamily: 'Pacifico',
-                fontSize: 40.0,
-                color: Colors.white,
+      body: SafeArea(
+              child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              CircleAvatar(
+                radius: 70.0,
+                backgroundImage: AssetImage('images/rahul.jpg'),
               ),
-            ),
-            Text(
-              'Founder CEO @ OCEANGREEN TECHNOLOGIES',
-              style: TextStyle(
-                fontFamily: 'Source Sans Pro',
-                color: Colors.teal.shade100,
-                fontSize: 20.0,
-                letterSpacing: 1.0,
+              Text(
+                'Rahul Shahare',
+                style: TextStyle(
+                  fontFamily: 'Pacifico',
+                  fontSize: 40.0,
+                  color: Colors.white,
+                ),
               ),
-            ),
-            SizedBox(
-              height: 20.0,
-              width: 150.0,
-              child: Divider(
-                color: Colors.teal.shade100,
+              Text(
+                'Founder CEO @ OCEANGREEN TECHNOLOGIES',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  color: Colors.teal.shade100,
+                  fontSize: 20.0,
+                  letterSpacing: 1.0,
+                ),
               ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(
-                  Icons.phone,
-                  color: Colors.teal,
-                  ),
-                title:  Text(
-                  '8999445733',
-                  style: TextStyle(
-                    color: Colors.teal[900],
-                    fontSize: 20.0,
-                  ),
-                  ),
+              SizedBox(
+                height: 20.0,
+                width: 150.0,
+                child: Divider(
+                  color: Colors.teal.shade100,
+                ),
               ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(
-                  Icons.email,
-                  color: Colors.teal,
-                  ),
-                title:  Text(
-                  'rahulshahare@gmail.com',
-                  style: TextStyle(
-                    color: Colors.teal[900],
-                    fontSize: 20.0,
-                  ),
-                  ),
+              Card(
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.teal,
+                    ),
+                  title:  Text(
+                    '8999445733',
+                    style: TextStyle(
+                      color: Colors.teal[900],
+                      fontSize: 20.0,
+                    ),
+                    ),
+                ),
               ),
-            ),
-          ],
-      )
+              Card(
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.teal,
+                    ),
+                  title:  Text(
+                    'rahulshahare@gmail.com',
+                    style: TextStyle(
+                      color: Colors.teal[900],
+                      fontSize: 20.0,
+                    ),
+                    ),
+                ),
+              ),
+            ],
+        ),
+      ),
     );
   }
 }
