@@ -10,7 +10,7 @@ void main() {
   //runApp(MyApp());
   runApp(
     MaterialApp(
-      home: MyApp(),
+      home: SecondRoute(),
       title: 'SaReGaMa App',
       )
     );
@@ -116,14 +116,35 @@ class SecondRoute extends StatelessWidget {
         title: Text("Info"),
         backgroundColor: Colors.black,
       ),
-      body: Center(
-        child: RaisedButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          child: Text('Go back!'),
-        ),
-      ),
+      body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            CircleAvatar(
+              backgroundColor: Colors.red,
+            ),
+            Text(
+              'Rahul Shahare',
+              style: TextStyle(
+                fontFamily:'Pacifoco' ,
+              ),
+              ),
+            Text('Founder CEO at Oceangreen Technologies'),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children:<Widget> [
+                Icon(Icons.phone),
+                Text('8999445733'),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Icon(Icons.email),
+                Text('rahulshahare@gmail.com'),
+              ],
+            ),
+          ],
+      )
     );
   }
 }
