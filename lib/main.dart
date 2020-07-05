@@ -149,11 +149,11 @@ class SecondRoute extends StatelessWidget {
                 Text('8999445733'),
               ],
             ),
-            Row(
-              children: <Widget>[
-                Icon(Icons.email),
-                Text('rahulshahare@gmail.com'),
-              ],
+            Card(
+              child: ListTile(
+                leading: Icon(Icons.email),
+                title:  Text('rahulshahare@gmail.com'),
+              ),
             ),
           ],
       )
