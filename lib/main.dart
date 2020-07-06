@@ -11,7 +11,7 @@ void main() {
   //runApp(MyApp());
   runApp(
     MaterialApp(
-      home: MyApp(),
+      home: SecondRoute(),
       title: 'SaReGaMa App',
       )
     );
@@ -153,14 +153,14 @@ class SecondRoute extends StatelessWidget {
                 ),
               ),
               Text(
-                'Founder CEO @ OCEANGREEN TECHNOLOGIES',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontFamily: 'Source Sans Pro',
-                  color: Colors.teal.shade100,
-                  fontSize: 20.0,
-                  letterSpacing: 1.0,
-                ),
+                  'Founder CEO @ OCEANGREEN TECHNOLOGIES',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontFamily: 'Source Sans Pro',
+                    color: Colors.teal.shade100,
+                    fontSize: 20.0,
+                    letterSpacing: 1.0,
+                  ),
               ),
               SizedBox(
                 height: 20.0,
@@ -200,6 +200,15 @@ class SecondRoute extends StatelessWidget {
                     ),
                     ),
                 ),
+              ),
+              SizedBox(
+                height: 20.0,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(Icons.android, size: 80.0,color: Colors.white,)
+                ],
               ),
             ],
         ),
